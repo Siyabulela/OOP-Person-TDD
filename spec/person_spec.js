@@ -7,10 +7,10 @@ describe("finds", function() {
     it("should compare age", function() {
         expect(person.age).toEqual(30)
     })
-    it("should compare age", function() {
-        expect(person.age).toEqual(30)
+    it("should compare gender", function() {
+        expect(person.gender).toEqual("male")
     })
-    it("should compare age", function() {
-        expect(person.age).toEqual(30)
+    it("should compare interests", function() {
+        expect(person.interests).toEqual(['being a hardarse', ' agile', 'ssd hard drives'])
     })
 })
