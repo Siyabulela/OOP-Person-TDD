@@ -7,4 +7,10 @@ describe("finds", function() {
     it("should compare age", function() {
         expect(person.age).toEqual(30)
     })
+    it("should compare age", function() {
+        expect(person.age).toEqual(30)
+    })
+    it("should compare age", function() {
+        expect(person.age).toEqual(30)
+    })
 })
